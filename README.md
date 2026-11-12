@@ -4,9 +4,11 @@ A news feed that thinks. It reads market news and filings all day, marks the ite
 
 ## Documents
 
-* Product concept v1: https://claude.ai/artifact/YH8Gy1o7wggrp7Lzf472r3
-* Trading assistant playbook v1 (signals, guardrails, evidence): https://claude.ai/artifact/9g8B26b2eoHKNntYTFzZKV
-* Decisions so far: [docs/decisions.md](docs/decisions.md)
+Everything is kept in this repository as plain markdown, so anyone with access to the repository can read it.
+
+* [Product concept](docs/product_concept.md): what the software is and how it works
+* [Playbook v1](docs/playbook_v1.md): the signals, guardrails and evidence from the research library
+* [Decisions](docs/decisions.md): what is decided and what is still open
 
 ## What lives where
 
