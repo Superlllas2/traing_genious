@@ -13,9 +13,10 @@ Last updated: 12 November 2026
 * **Proof.** Nothing is concluded before it is tested. Ilia forward tests through the log. The log starts on day one and is never edited.
 * **Success measure.** After three months, did Recommended items come before unusual price moves more often than All news items did?
 
+* **One repository.** Everything needed for development lives in this repository, including the research text files under `research/`. The research database and the PDFs stay on the Spark.
+
 ## Open
 
 * News sources and price data source for the four markets.
 * Which model runs the light layer, and its measured error rate on a labelled test set.
-* How the app reads the frozen research library on the Spark.
 * Research round 3 themes and order (Europe evidence first).

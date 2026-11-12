@@ -12,8 +12,11 @@ Everything is kept in this repository as plain markdown, so anyone with access t
 
 ## What lives where
 
-* This repository: the app code (intake, light layer, threads, thinking runs, log, Telegram client).
-* The research library (method cards, paper notes, database, PDFs) stays in its own folder on the Spark. It is frozen and read only. The app reads from it and nothing from it is copied here, except small exports the app needs.
+* `docs/`: product concept, playbook, decisions.
+* `research/`: text results of the research runs, one folder per frozen version. See [research/README.md](research/README.md).
+* `scripts/`: helper scripts.
+* App code (intake, light layer, threads, thinking runs, log, Telegram client) and the research pipeline code will be added here.
+* Not in git: the research database and the PDFs. They stay on the Spark.
 
 ## Status
 
