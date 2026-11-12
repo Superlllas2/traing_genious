@@ -1,0 +1,21 @@
+# secrets
+.env
+*.token
+
+# data and research files stay out of the repository
+data/
+pdfs/
+*.db
+*.sqlite
+*.sqlite3
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os and editors
+.DS_Store
+.idea/
+.vscode/
