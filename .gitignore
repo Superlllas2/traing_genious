@@ -19,3 +19,33 @@ venv/
 .DS_Store
 .idea/
 .vscode/
+
+# more secrets: the pipeline's private keys
+config.json
+.env.*
+!.env.example
+
+# more data: PDFs anywhere, database side files, archives
+*.pdf
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite-*
+*.lock
+*.zip
+
+# research pipeline: runtime output stays on the Spark
+research_pipeline/reports/
+research_pipeline/logs/
+research_pipeline/entitled/
+research_pipeline/.python_path
+research_pipeline/trial_log.txt
+*.log
+*.pid
+*.out
+
+# more caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/

@@ -1,0 +1,12 @@
+{
+  "telegram": {
+    "token": "<telegram-bot-token>",
+    "chat_id": "<telegram-chat-id>"
+  },
+  "openalex_api_key": "<openalex-api-key>",
+  "unpaywall_email": "<your-email-for-unpaywall>",
+  "core_api_key": "<core-api-key>",
+  "wiley_tdm_token": "<wiley-tdm-token>",
+  "elsevier_api_key": "<elsevier-api-key>",
+  "semantic_scholar_api_key": "<semantic-scholar-api-key>"
+}
