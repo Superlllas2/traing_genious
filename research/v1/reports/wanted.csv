@@ -1,0 +1,120 @@
+rank,id,doi,title,authors,year,read_from,anchor,importance,citations,cited_by_chosen_papers,themes,method_cards
+1,P3630,10.2139/ssrn.2961979,Replicating Anomalies,"Kewei Hou, Xue Chen, Lu Zhang",2017,no text,replicating anomalies,6.6,176,1,1,0
+2,P3515,10.3386/w23394,Replicating Anomalies,"Kewei Hou, Xue Chen, Lu Zhang",2017,abstract only,replicating anomalies,5.35,74,0,1,0
+3,P5343,10.3905/pa.2015.2.3.089,"Practical Applications of The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting, and Non-Normality","David H. Bailey, Marcos López de Prado",2015,abstract and citing papers,deflated Sharpe ratio,1.6,0,0,1,0
+4,P93,10.1111/j.1540-6261.1992.tb04010.x,Tests of Analysts' Overreaction/Underreaction to Earnings Information as an Explanation for Anomalous Stock Price Behavior,"Jeffery S. Abarbanell, Victor L. Bernard",1992,abstract and citing papers,,14.6,1003,17,1,4
+5,P102,10.2308/accr.2003.78.1.193,Analyst Forecast Revisions and Market Price Discovery,"Cristi A. Gleason, Charles M.C. Lee",2003,abstract and citing papers,,14.38,772,12,1,5
+6,P5826,10.1093/rfs/6.4.799,Investment Analysis and the Adjustment of Stock Prices to Common Information,"Michael John Brennan, Narasimhan Jegadeesh, Bhaskaran Swaminathan",1993,abstract and citing papers,,13.71,639,14,2,1
+7,P507,10.1016/s0304-405x(99)00031-8,The long-run performance of stock returns following debt offerings,"D. Katherine Spiess, J. F. Affleck‐Graves",1999,abstract and citing papers,,13.3,398,7,2,8
+8,P6877,10.1111/j.1540-6261.1985.tb05002.x,The Disposition to Sell Winners Too Early and Ride Losers Too Long: Theory and Evidence,"Hersh Shefrin, Meir Statman",1985,abstract and citing papers,,13.3,3547,19,1,0
+9,P1,10.1086/422627,Arbitrage Risk and Post‐Earnings‐Announcement Drift,Richard R. Mendenhall,2004,abstract and citing papers,,13.29,394,20,1,3
+10,P6299,10.1287/mnsc.1070.0704,Yahoo! for Amazon: Sentiment Extraction from Small Talk on the Web,"Sanjiv Ranjan Das, Mike Y. Chen",2007,abstract and citing papers,,12.99,1397,14,1,1
+11,P6611,10.1093/rfs/hhx019,The Characteristics that Provide Independent Information about Average U.S. Monthly Stock Returns,"Jeremiah Green, John R. M. Hand, Frank Zhang",2017,abstract and citing papers,,12.77,682,9,2,0
+12,P517,10.1016/0304-405x(94)00817-k,Underperformance in long-run stock returns following seasoned equity offerings,"D. Katherine Spiess, J. F. Affleck‐Graves",1995,abstract and citing papers,,12.71,1005,10,1,1
+13,P6056,10.1016/j.jfineco.2007.01.005,Inter-firm linkages and the wealth effects of financial distress along the supply chain☆,"Michael G. Hertzel, Z LI, M OFFICER et al.",2007,citing papers only,,12.46,755,7,1,5
+14,P1746,10.1016/0165-4101(81)90003-3,Intra-industry information transfers associated with earnings releases,GEORGE J. FOSTER,1981,citing papers only,,12.25,592,14,1,1
+15,P6682,10.2308/tar-274315,Abnormal returns to a fundamental analysis strategy.,"Jeffery S. Abarbanell, Brian J. Bushee",1998,abstract and citing papers,,12.12,512,7,1,11
+16,P6057,10.1016/j.jfineco.2003.10.002,"Sources of gains in horizontal mergers: evidence from customer, supplier, and rival firms","C. Edward Fee, Shawn Thomas",2004,citing papers only,,11.9,704,7,1,3
+17,P5887,10.1086/296144,On Market Timing and Investment Performance. II. Statistical Procedures for Evaluating Forecasting Skills,"Roy D. Henriksson, Robert C. Merton",1981,citing papers only,,11.84,1321,8,1,0
+18,P6936,10.7551/mitpress/3951.001.0001,Investment Intelligence from Insider Trading,H. Nejat Seyhun,1998,abstract and citing papers,,11.77,343,7,1,8
+19,P5984,10.1093/rfs/8.2.401,"Of Shepherds, Sheep, and the Cross-autocorrelations in Equity Returns","Swaminathan G. Badrinath, Jayant Raghunath Kale, Thomas H. Noe",1995,abstract and citing papers,,11.74,331,12,1,1
+20,P5803,10.2307/2331290,"The ""Dartboard"" Column: Second-Hand Information and Price Pressure","Brad M. Barber, Douglas Loeffler",1993,abstract and citing papers,,11.02,289,7,1,2
+21,P1772,10.2308/accr.2004.79.4.1119,"The Influence of Analysts, Institutional Investors, and Insiders on the Incorporation of Market, Industry, and Firm-Specific Information into Stock Prices","Joseph D. Piotroski, Darren T. Roulstone",2004,abstract and citing papers,,9.89,1249,5,1,0
+22,P10,10.2308/accr.00000027,Investor Trading and the Post-Earnings-Announcement Drift,"Benjamin C. Ayers, Oliver Zhen Li, P. Eric Yeung",2010,abstract and citing papers,,9.87,135,4,2,2
+23,P17,10.2469/faj.v62.n2.4081,Post-Earnings-Announcement Drift: The Role of Revenue Surprises,"Narasimhan Jegadeesh, Joshua Livnat",2006,abstract and citing papers,,9.61,100,4,1,4
+24,P5949,10.1086/209724,Long‐Run Common Stock Returns Following Stock Splits and Reverse Splits,"Hemang Desai, Prem C. Jain",1997,abstract and citing papers,,9.55,265,5,1,2
+25,P6683,10.3905/jpm.1988.409150,The implementation shortfall,André F. Perold,1988,citing papers only,,9.49,441,6,1,0
+26,P5807,10.1111/j.1540-6261.1986.tb04534.x,Discrete Expectational Data and Portfolio Performance,"Edwin J. Elton, Martin J. Gruber, SETH GROSSMAN",1986,abstract and citing papers,,9.2,198,4,1,2
+27,P6903,10.1016/s0167-2681(97)00089-9,The disposition effect in securities trading: an experimental analysis,"Martin Weber, Colin F. Camerer",1998,citing papers only,,9.13,922,4,1,0
+28,P2542,10.2469/faj.v73.n3.3,News vs. Sentiment: Predicting Stock Returns from News Stories,"Steven L. Heston, Nitish Ranjan Sinha",2017,abstract and citing papers,,8.98,219,3,1,2
+29,P1763,10.2307/2331179,"Dividend Changes, Abnormal Returns, and Intra-Industry Firm Valuations",Michael A. Firth,1996,abstract and citing papers,,8.81,127,2,1,4
+30,P1995,10.17578/19-1-1,Media Content and Stock Returns: The Predictive Power of Press,"Nicky J. Ferguson, Dennis Philip, Herbert Y. T. Lam et al.",2015,abstract and citing papers,,8.58,97,0,2,4
+31,P6332,10.3905/jpm.2011.38.1.110,Event-Driven Trading and the “New News”,"David Leinweber, Jacob Sisk",2011,abstract and citing papers,,8.45,83,5,1,1
+32,P6503,10.2139/ssrn.249979,Investor Reaction to Corporate Event Announcements: Under-Reaction or Over-Reaction?,"Padma Kadiyala, P. Raghavendra Rau",2000,abstract and citing papers,,8.12,101,1,1,4
+33,P2893,10.1287/mnsc.1100.1212,Investor Inattention and the Market Reaction to Merger Announcements,"Henock Louis, Amy X. Sun",2010,abstract and citing papers,,7.89,139,2,1,2
+34,P6684,10.1093/rfs/hhr110,Performance of Institutional Trading Desks: An Analysis of Persistence in Trading Costs,"Amber Anand, Paul J. Irvine, Andy Puckett et al.",2011,abstract and citing papers,,7.79,196,4,1,0
+35,P6387,10.3905/jpm.2016.42.5.123,The Wisdom of Twitter Crowds: Predicting Stock Market Reactions to FOMC Meetings via Twitter Feeds,"Pablo Daniel Azar, Andrew W. Lo",2016,abstract and citing papers,,7.7,111,3,1,1
+36,P1997,10.1080/15427560.2020.1772261,Social Media Sentiment in International Stock Returns and Trading Activity,"Selin Düz Tan, Oktay Taş",2020,abstract and citing papers,,7.69,138,0,1,4
+37,P2733,10.1017/s0022109021000090,Investor Attention and Stock Returns,"Jian Chen, Guohao Tang, Jiaquan Yao et al.",2018,abstract and citing papers,,7.57,306,0,1,2
+38,P6065,10.1016/j.jfineco.2011.10.003,Bankruptcy spillover effects on strategic alliance partners,"Audra L. Boone, Vladimir I. Ivanov",2011,citing papers only,,7.56,151,3,1,1
+39,P3419,10.1093/rfs/hhy005,High-Frequency Measures of Informed Trading and Corporate Announcements,"Michael John Brennan, Sahn-Wook Huh, Avanidhar Subrahmanyam",2018,abstract only,,7.36,75,0,1,4
+40,P3227,10.1017/s0022109016000600,Alliances and Return Predictability,"Jie Cao, Tarun Chordia, Chen Lin",2016,abstract and citing papers,,6.95,83,2,1,1
+41,P355,10.3905/jpm.2012.38.3.120,"Analysts’ Earnings Forecast, Recommendation,and Target Price Revisions","Ronen Feldman, Joshua Livnat, Yuan Zhang",2012,abstract and citing papers,,6.89,43,0,1,4
+42,P643,10.2469/faj.v60.n3.2620,Some Insider Sales Are Positive Signals,"James Scott, Peter Xu",2004,abstract and citing papers,,6.85,41,1,1,3
+43,P359,10.1287/mnsc.2017.2749,What Motivates Buy-Side Analysts to Share Recommendations Online?,"Steve Crawford, Wesley R. Gray, Bryan R. Johnson et al.",2017,abstract and citing papers,,6.71,35,1,1,3
+44,P31,10.1017/s0022109022001181,PEAD.txt: Post-Earnings-Announcement Drift Using Text,"Vitaly Meursault, Pierre Jinghong Liang, Bryan Routledge et al.",2022,abstract and citing papers,,6.58,30,1,2,1
+45,P495,10.1017/s0022109016000612,"Asymmetric Information, Financial Reporting, and Open-Market Share Repurchases","Matthew T. Billett, Miaomiao Yu",2016,abstract and citing papers,,6.58,54,0,1,3
+46,P2788,10.1287/mnsc.2019.3460,Asymmetric Attention and Stock Returns,"Péter Cziráki, Jordi Mondria, Thomas Yen Hon Wu",2020,abstract only,,6.45,83,1,1,1
+47,P1187,10.2469/faj.v66.n3.8,Return Predictability along the Supply Chain: The International Evidence,"Husayn K. Shahrur, Ying L. Becker, Didier Rosenfeld",2010,abstract and citing papers,,6.39,43,2,1,1
+48,P704,10.2469/faj.v63.n4.4750,Double Surprise into Higher Future Returns,"Alina Lerman, Joshua Livnat, Richard R. Mendenhall",2007,abstract and citing papers,,6.24,20,1,1,3
+49,P1661,10.1108/ijopm-11-2022-0760,The spillover effects of supply chain corruption practices on stock returns,"Geng Wang, Yangchun Xiong, Cheng Yang et al.",2023,abstract and citing papers,,6.24,20,0,1,4
+50,P707,10.1177/0148558x17705039,Herding on Earnings News: The Role of Institutional Investors in Post–Earnings-Announcement Drift,"Linda H. Chen, Wei Huang, George J. Jiang",2017,abstract and citing papers,,6.2,19,1,1,3
+51,P646,10.3386/w6913,The Profits to Insider Trading: A Performance-Evaluation Perspective,"Leslie A. Jeng, Andrew Metrick, Richard Zeckhauser",1999,abstract only,,6.18,61,0,1,2
+52,P2734,10.1080/15427560.2017.1331235,Investor Attention and Global Stock Returns,Tao Chen,2017,abstract and citing papers,,6.1,99,0,1,1
+53,P1459,10.3386/w15833,"Information, analysts, and stock return comovement","Allaudeen Hameed, Randall Mørck, Jianfeng Shen et al.",2010,abstract only,,6.08,172,0,1,0
+54,P3027,10.1017/s0022109018001242,Distracted Institutional Investors,Daniel M. Schmidt,2016,abstract and citing papers,,6.05,93,1,1,0
+55,P1660,10.1287/isre.2016.0656,Cosearch Attention and Stock Return Predictability in Supply Chains,"Ashish Agarwal, Alvin Chung Man Leung, Prabhudev Konana et al.",2017,abstract and citing papers,,6.02,50,1,1,1
+56,P1824,10.2308/tar-2017-0018,The Dark Side of Low Financial Reporting Frequency: Investors' Reliance on Alternative Sources of Earnings News and Excessive Information Spillovers,"Salman Arif, Emmanuel T. De George",2020,abstract and citing papers,,5.98,48,0,1,2
+57,P3768,10.1080/1331677x.2018.1545593,"Trading costs, short sale constraints, and the performance of stock market anomalies in Emerging Europe","Adam Zaremba, Jerzy Nikorowski",2019,abstract and citing papers,,5.89,13,0,1,5
+58,P2916,10.1017/s0022109018000492,Time Will Tell: Information in the Timing of Scheduled Earnings News,"Travis L. Johnson, Eric C. So",2017,abstract and citing papers,,5.87,76,0,1,1
+59,P3773,10.1080/00014788.2009.9663371,The Accruals Anomaly: Can Implementable Portfolio Strategies Be Developed That Are Pofitable Net of Transactions Costs in the UK?,"Nuno F. Soares, Andrew W. Stark",2009,abstract and citing papers,,5.8,62,0,1,2
+60,P2689,10.1080/09638180.2023.2244009,Credibility Signals from Soft Information: Evidence from Investor Reactions to Tone in Earnings Conference Calls,"Jan Christoph Hennig, Sebastian Firk, Michael Wolff",2023,abstract and citing papers,,5.74,20,0,1,3
+61,P1059,10.1017/s0022109018001126,Regional Economic Activity and Stock Returns,Esad Smajlbegovic,2018,abstract and citing papers,,5.68,54,1,1,1
+62,P829,10.1177/0148558x14530129,Investors’ Reactions to Analysts’ Forecast Revisions and Information Uncertainty,"Tony Chieh‐Tse Hou, Weifeng Hung, Simon S. Gao",2014,abstract and citing papers,,5.61,17,0,1,3
+63,P4544,10.3905/jpm.2011.37.4.096,How Does the Fortune’s Formula Kelly CapitalGrowth Model Perform?,"Leonard C. MacLean, Edward O. Thorp, Yonggan Zhao et al.",2011,abstract and citing papers,,5.59,27,0,1,3
+64,P2680,10.1080/15427560.2017.1276068,An Investigation of Analysts' Praise of Management During Earnings Conference Calls,"Jonathan A. Milian, Antoinette L. Smith",2017,abstract and citing papers,,5.58,30,1,1,1
+65,P173,10.1080/15427560.2017.1339190,Stock Price Reaction to News: The Joint Effect of Tone and Attention on Momentum,"Thanh Huynh, Daniel R. Smith",2017,abstract and citing papers,,5.55,29,1,1,1
+66,P1048,10.1093/rof/rfx033,Economic Links and Cross-Predictability of Stock Returns: Evidence from Characteristic-Based “Styles”,Sebastian Müller,2017,abstract and citing papers,,5.55,29,1,1,1
+67,P1847,10.1287/isre.2020.0969,News-Induced Dynamic Networks for Market Signaling: Understanding the Impact of News on Firm Equity Value,"Kun Chen, Xin Li, Peng Luo et al.",2021,abstract and citing papers,,5.49,43,0,1,2
+68,P2753,10.1108/rbf-04-2018-0033,Investor attention using the Google search volume index – impact on stock returns,"Vighneswara Swamy P.M., M. Dharani",2019,abstract and citing papers,,5.46,47,0,1,1
+69,P5034,10.1108/raf-07-2020-0182,Chinese securities investment funds: the role of luck in performance,"Jun Gao, Niall O’Sullivan, Meadhbh Sherman",2021,abstract and citing papers,,5.3,70,0,1,0
+70,P35,10.2469/faj.v68.n3.7,Jump on the Post–Earnings Announcement Drift (corrected),"Haigang Zhou, John Qi Zhu",2012,abstract and citing papers,,5.26,16,1,1,1
+71,P5056,10.1017/s0022109017000904,Passive versus Active Fund Performance: Do Index Funds Have Skill?,"Alan D. Crane, Kevin Crotty",2014,abstract only,,5.07,85,0,1,0
+72,P1914,10.1093/rapstu/raac014,The Effect of Innovation Similarity on Asset Prices: Evidence from Patents’ Big Data,"Ron Bekkerman, Eliezer M. Fich, Natalya V. Khimich",2022,abstract and citing papers,,5.05,29,0,1,1
+73,P3223,10.1108/20441391111167487,Limited attention and stock price drift following earnings announcements and 10‐K filings,"Haifeng You, Xiaojun Zhang",2011,abstract and citing papers,,4.89,13,0,1,2
+74,P5057,10.1111/fima.12180,Mutual Fund Managers’ Prior Work Experience and Their Investment Skill,"Rui Chen, Zhennan Gao, Xueyong Zhang et al.",2017,abstract and citing papers,,4.85,66,0,1,0
+75,P2742,10.1080/15427560.2020.1772263,"Investor Attention, Divergence of Opinions, and Stock Returns","Zhen Cao, Osman Kilic, Xuewu Wang",2020,abstract and citing papers,,4.78,21,0,1,1
+76,P39,10.1111/1911-3846.12210,Intra-Industry Information Transfers and the Post-Earnings Announcement Drift,Tunde Kovacs,2011,no text,,4.71,31,1,1,0
+77,P1057,10.1093/rof/rfv050,R&D Spillover and Predictable Returns,"Yi Jiang, Yiming Qian, Tong Yao",2015,abstract and citing papers,,4.56,26,0,1,1
+78,P851,10.1093/rof/rfaf015,"CEO turnover, sequential disclosure, and stock returns","Jiayin Hu, Laura Xiaolei Liu, Chloe Yue Liu et al.",2025,abstract only,,4.51,8,0,1,2
+79,P3233,10.1017/s0022109023001369,Time Variation in the News–Returns Relationship,"Paul Glasserman, Fulin Li, Harry Mamaysky",2023,abstract and citing papers,,4.51,15,0,1,1
+80,P3219,10.4337/9781802204179.00010,Limited attention and financial decision-making,"Alexander Nekrasov, Siew Hong Teoh, Shijia Wu",2023,abstract only,,4.49,27,0,1,0
+81,P2738,10.1080/1540496x.2017.1413980,Investor Attention and Stock Returns: International Evidence,"Liyan Han, Ziying Li, Libo Yin",2017,abstract and citing papers,,4.41,17,0,1,1
+82,P3094,,Investor Underreaction to Earnings Surprises and Overreaction to Product News in the Drug Industry,Dov Fischer,2012,abstract and citing papers,,4.41,7,0,1,2
+83,P5480,10.1016/j.ribaf.2022.101740,Analysis of herding behavior in individual investor portfolios using machine learning algorithms,Taylan Mavruk,2022,abstract and citing papers,,4.4,39,0,1,0
+84,P4944,10.1080/0015198x.2019.1567190,Transaction Costs of Factor-Investing Strategies,"Feifei Li, Tzee-man Chow, Alex Pickard et al.",2019,abstract and citing papers,,4.32,28,0,1,0
+85,P1180,10.1093/acrefore/9780190625979.013.631,The Economics and Finance of Customer–Supplier Relationships,"Ling Cen, Sudipto Dasgupta",2021,abstract and citing papers,,4.2,24,0,1,0
+86,P5044,10.3390/ijfs7010006,An Empirical Investigation of the Performance of Japanese Mutual Funds: Skill or Luck?,"Keith Pılbeam, Hamish Preston",2019,abstract and citing papers,,3.84,20,0,1,0
+87,P4690,10.21511/imfi.15(2).2018.01,Dynamic stop-loss rules as universal performance enhancers,"Dimitrios D. Thomakos, Rafael Yahlomi",2018,abstract only,,3.8,1,0,1,4
+88,P1326,10.1016/j.jempfin.2026.101775,Detecting lead–lag relationships in stock returns and portfolio strategies,"Álvaro Cartea, Mihai Cucuringu, Qi Jin",2026,abstract only,,3.79,6,0,1,1
+89,P3119,10.3386/w32301,What Hundreds of Economic News Events Say About Belief Overreaction in the Stock Market,"Francesco Bianchi, Sydney C. Ludvigson, Sai Ma",2024,abstract only,,3.68,10,0,1,0
+90,P1185,10.3905/jpm.2019.45.4.143,Return Predictability: Evidence from the US–China Supply Chain,"Rui Chen, Zhennan Gao, Xueyong Zhang",2019,abstract and citing papers,,3.66,5,0,1,1
+91,P2455,10.3905/jesg.2023.1.076,ControversyBERT: Detecting Social Controversies and Their Impact on Stock Returns,"Harald Lohre, Sandra Nolte, Ananthalakshmi Ranganathan et al.",2023,abstract only,,3.66,5,0,1,1
+92,P5060,10.1080/00036846.2012.727979,Returns to individual traders in agricultural futures markets: skill or luck?,"Nicole M. Aulerich, Scott H. Irwin, Philip Garcia",2012,abstract and citing papers,,3.43,12,0,1,0
+93,P1758,10.1108/ajb-03-2013-0014,Industry classification and the efficiency of intra-industry information transfers,"Dennis Y. Chung, Karel Hrazdil, Kim Trottier",2014,abstract and citing papers,,3.39,6,0,1,1
+94,P5618,,PSEUDO MATHEMATICS AND FINANCIAL CHARLATANISM: BACKTEST OVERFITTING AND OUT-OF-SAMPLE PERFORMANCE,"David H. Bailey, Jonathan Michael Borwein, Marcos López de Prado et al.",2013,abstract and citing papers,,3.29,6,0,1,0
+95,P1179,10.1007/978-3-8349-9814-9_4,Predictability of Supplier Returns After Large Customer Price Changes,,2008,abstract only,,3.2,1,0,1,2
+96,P5617,10.3233/af-180231,How hard is it to pick the right model? MCS and backtest overfitting,"Diego Aparicio, Marcos López de Prado",2018,abstract and citing papers,,3.16,5,0,1,0
+97,P26,10.1201/9781003456230-14,Post-earnings announcement drift,"Ian D. Gow, Tongqing Ding",2024,abstract only,,3.05,2,0,1,1
+98,P2544,10.3905/jpm.2024.1.663,Four-Fold News Sentiment and Stock Returns,"Ming Deng, Miha Kebe, Patrick Matei Lucescu et al.",2024,abstract only,,3.05,2,0,1,1
+99,P1764,10.11640/tjar.11.2021.01,Product Market Competition and Overreaction to Intra-Industry Information Transfers,Norio Kitagawa,2021,abstract only,,3.0,1,0,1,2
+100,P1189,,Whose Attention Matters? Evidence From Return Predictability Between Economic Linked Firms,Xinyao Zhou,2021,abstract only,,2.7,1,0,1,1
+101,P2008,10.1080/20430795.2026.2733407,"Pollution news, media sentiment and stock returns","Oliver Budras, Maik Dierkes",2026,abstract only,,2.6,0,0,1,2
+102,P2672,,The Predictive Value of Abnormal Positive Tone in Earnings Conference Calls,"André Holmström, Haris Kovacevic",2017,abstract only,,2.6,0,0,1,2
+103,P2745,,Local investor attention and stock returns,L. Vincent Raj Kumar,2017,abstract only,,2.6,0,0,1,2
+104,P5354,10.5281/zenodo.21925897,Twelve Rejections: Pre-Registered Kill Criteria and the Non-Monotone Cost of Clean Data in Retail-Scale Systematic Trading,Brian Kilgore,2026,abstract only,,2.6,0,0,1,2
+105,P4539,,Bayesian Kelly criterion as an allocation strategy in Finnish stock markets,Risto K. Heikkinen,2020,abstract only,,2.2,0,0,1,2
+106,P1753,,Intra-industry information transfers associated with management earnings forecasts,Stephen P. Baginski,1986,abstract and citing papers,,2.15,2,0,1,0
+107,P4698,10.3905/jot.2014.10.1.087,A Framework for Stop-Loss Analysis on Trading Strategies,"Oliver Chan, Alfred Ka Chun Ma",2014,abstract and citing papers,,2.15,2,0,1,0
+108,P1183,10.71548/3204,Technology and return predictability,"Jiaping, Qiu, Wang, Jin, Zhou, Yi et al.",2018,abstract and citing papers,,2.1,0,0,1,1
+109,P1759,,Explain Overreaction in Intra-Industry Information Transfer,Yue Hu,2018,abstract only,,2.1,0,0,1,1
+110,P1994,,Language Tone in Financial News Media and the Cross-Section of Stock Returns,"Mikael Bask, Lars Forsberg, Andreas Östling",2020,abstract only,,2.1,0,0,1,1
+111,P3770,10.1017/s0022109026102592,"Price Impact in Closing Auctions, Opening Auctions, and Continuous Markets: A Benchmark for Cost of Trading on Anomalies","Amit Goyal, Narasimhan Jegadeesh, Yanbin Wu",2026,abstract and citing papers,,2.1,0,0,1,1
+112,P3519,10.17605/osf.io/uqfn7,Exploit Lifecycle: anomaly inversion after publication,Tom Visser,2026,abstract only,,1.6,0,0,1,0
+113,P3521,10.13021/jssr2026.5634,Do Anomalies Die When They Are Published?,"Christopher Dadoo, Lei Gao",2026,abstract only,,1.6,0,0,1,0
+114,P3959,10.5281/zenodo.21840394,Breaking the Selection Link: A Pre-Registered Validation Audit of the Factor Zoo,Oussama Souihli,2026,abstract only,,1.6,0,0,1,0
+115,P5045,,U.S. Mutual Fund Performance: Skill or Luck?,"Kenneth Nordlund Hoem, Erik Rosmer Aasland",2018,abstract and citing papers,,1.6,0,0,1,0
+116,P5342,10.3905/jpm.2026.070,The Deflated Sharpe Ratio: A Unified Framework for Search-Adjusted Performance Inference,"Marcos López de Prado, Emilio Porcu",2026,abstract only,,1.6,0,0,1,0
+117,P5347,10.5281/zenodo.20312695,purgedcv: scikit-learn-compatible purged and combinatorial cross-validation for time-series and financial machine learning,Евгений Лазарев,2026,abstract only,,1.6,0,0,1,0
+118,P5186,,Mutual fund performance evaluation methodology and local false discovery rate approach,Nik Tuzov,2009,abstract only,,1.4,0,0,1,0
+119,P4265,10.1017/s0022109025101695,Do Individual Investors Ignore Transaction Costs?,"Deniz Anginer, Snow Xue Han, Çelim Yıldızhan",2025,abstract only,,1.2,0,0,1,0

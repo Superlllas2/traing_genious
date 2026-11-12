@@ -1,0 +1,274 @@
+{
+  "about": "Ilia: technical background, no formal finance training. He is designing an AI market insight app for stocks. The app reads news and research over weeks, links events into storylines (this happened, so that should follow; when the expected next event appears, the link is confirmed) and helps a human trader decide with less emotion. It is not high frequency trading and not based on price patterns. The goal is to beat the habits of casual retail traders, not to compete with funds. This review is about methods: what to actually trade when trading on news and events over days to weeks, how long to hold, what it returns after costs, and whether it still works. Screening rules. Keep: stocks in any country (US and Europe preferred), real market data, studies that report returns, holding periods or trading costs. Prefer: open full text (NBER, SSRN and arXiv versions count), samples that run past 2010, and applied journals such as the Financial Analysts Journal and the Journal of Portfolio Management. Drop (relevance 2 or less): technical analysis and chart patterns, high frequency and intraday trading, crypto, forex, options strategies, and pure theory without data.",
+  "language": "English",
+  "llm": {
+    "api": "ollama",
+    "base_url": "http://localhost:11434",
+    "model": "qwen3.5:122b",
+    "num_ctx": 65536,
+    "temperature": 0.3,
+    "keep_alive": "60m",
+    "timeout_seconds": 2400,
+    "think_screen": false,
+    "think_read": false,
+    "think_write": true,
+    "screen_max_tokens": 1500,
+    "read_max_tokens": 16000,
+    "write_max_tokens": 32000,
+    "final_max_tokens": 32000,
+    "partial_max_tokens": 16000,
+    "reread_max_tokens": 32000
+  },
+  "budgets": {
+    "results_per_query": 100,
+    "classic_queries_per_theme": 4,
+    "min_year": 1980,
+    "screen_per_theme": 500,
+    "min_relevance": 6,
+    "read_per_theme": 50,
+    "snowball_seeds_per_theme": 12,
+    "snowball_refs_max": 300,
+    "snowball_citing_seeds": 6,
+    "snowball_screen_per_theme": 200,
+    "snowball_read_per_theme": 20,
+    "max_paper_chars": 160000,
+    "chapter_batch_chars": 100000,
+    "progress_every_hours": 2,
+    "card_text_chars": 30000
+  },
+  "themes": [
+    {
+      "name": "Events that make prices drift",
+      "question": "Which company events (earnings surprises, guidance and analyst revisions, recommendation changes, insider buying, buybacks, index additions, dividend initiations) are followed by prices that keep moving in the same direction, by how much, and for how many days or weeks?",
+      "queries": [
+        "post earnings announcement drift",
+        "stock price reaction to news and no news",
+        "analyst recommendation changes returns",
+        "share repurchase announcements long run returns",
+        "insider purchases abnormal returns",
+        "earnings surprise drift returns",
+        "management guidance revisions stock returns",
+        "analyst forecast revisions stock returns",
+        "index additions stock price effect",
+        "dividend initiations drift"
+      ]
+    },
+    {
+      "name": "News spreading to linked companies",
+      "question": "When news hits one company, how and how slowly do the prices of linked companies (customers, suppliers, industry peers, firms sharing analysts or technology) follow, and can that delay be traded over days to weeks?",
+      "queries": [
+        "economic links predictable returns",
+        "customer supplier return predictability",
+        "industry lead lag stock returns",
+        "shared analyst coverage return predictability",
+        "complicated firms slow information processing",
+        "supply chain information diffusion stock returns",
+        "intra industry information transfer earnings",
+        "peer firm news spillover returns",
+        "technological links return predictability"
+      ]
+    },
+    {
+      "name": "Text and attention signals",
+      "question": "Do signals built from text (news tone, novelty, changes in filings, earnings call language, language model readings) or from investor attention (searches, media coverage) predict stock returns over days to weeks, and how large and lasting is the effect?",
+      "queries": [
+        "media tone stock returns",
+        "annual report text changes future returns",
+        "textual analysis return prediction",
+        "large language models news stock returns",
+        "news sentiment stock returns",
+        "news novelty stock returns",
+        "earnings call tone returns",
+        "investor attention stock returns",
+        "Google search volume stock returns"
+      ]
+    },
+    {
+      "name": "Already priced in or not",
+      "question": "How much of a news event is priced on the day it appears versus over the following days and weeks, when do prices underreact or overreact, and what (distraction, timing, informed trading beforehand) decides which?",
+      "queries": [
+        "Friday earnings announcements",
+        "investor distraction earnings announcements",
+        "underreaction overreaction news stock prices",
+        "limited attention underreaction",
+        "announcement returns continuation reversal",
+        "speed of price adjustment to news",
+        "informed trading before announcements",
+        "anomaly returns on news and earnings days"
+      ]
+    },
+    {
+      "name": "Does it still work",
+      "question": "Do news and event based return patterns survive trading costs, publication, recent years and a filter that removes tiny illiquid stocks, and how much of the reported return is left?",
+      "queries": [
+        "anomaly returns after publication",
+        "replicating anomalies",
+        "trading costs of anomalies",
+        "decline of post earnings announcement drift",
+        "anomalies in small and microcap stocks",
+        "factor zoo false discoveries",
+        "out of sample return predictability",
+        "limits to arbitrage anomalies"
+      ]
+    },
+    {
+      "name": "From signal to trade",
+      "question": "Once a signal fires, what does the evidence say about when to enter, how long to hold, when to exit, how much to put in each position, how many positions to hold, and what trading costs do to a retail sized account?",
+      "queries": [
+        "volatility managed portfolios",
+        "trading costs individual investors",
+        "optimal holding period event strategies",
+        "position sizing Kelly criterion",
+        "stop loss rules performance",
+        "portfolio concentration individual investors",
+        "how many stocks diversification",
+        "strategy turnover implementation costs"
+      ]
+    },
+    {
+      "name": "Skill or luck",
+      "question": "How can a trader tell whether good results come from skill or luck, how long a track record is needed, how should backtests be corrected for testing many ideas, and do individual investors learn from their own trading?",
+      "queries": [
+        "skill versus luck investment performance",
+        "false discoveries fund performance",
+        "deflated Sharpe ratio",
+        "learning by trading individual investors",
+        "multiple testing cross section of expected returns",
+        "probability of backtest overfitting",
+        "performance evaluation short track record"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "authors": "Bernard, Thomas",
+      "year": 1989,
+      "what": "earnings drift"
+    },
+    {
+      "authors": "Chan",
+      "year": 2003,
+      "what": "news and no news"
+    },
+    {
+      "authors": "Womack",
+      "year": 1996,
+      "what": "analyst recommendations"
+    },
+    {
+      "authors": "Ikenberry, Lakonishok, Vermaelen",
+      "year": 1995,
+      "what": "buybacks"
+    },
+    {
+      "authors": "Cohen, Malloy, Pomorski",
+      "year": 2012,
+      "what": "insider trades"
+    },
+    {
+      "authors": "Cohen, Frazzini",
+      "year": 2008,
+      "what": "economic links"
+    },
+    {
+      "authors": "Menzly, Ozbas",
+      "year": 2010,
+      "what": "returns across related industries"
+    },
+    {
+      "authors": "Hou",
+      "year": 2007,
+      "what": "industry information diffusion"
+    },
+    {
+      "authors": "Ali, Hirshleifer",
+      "year": 2020,
+      "what": "shared analyst coverage"
+    },
+    {
+      "authors": "Cohen, Lou",
+      "year": 2012,
+      "what": "complicated firms"
+    },
+    {
+      "authors": "Tetlock, Saar-Tsechansky, Macskassy",
+      "year": 2008,
+      "what": "more than words"
+    },
+    {
+      "authors": "Cohen, Malloy, Nguyen",
+      "year": 2020,
+      "what": "lazy prices"
+    },
+    {
+      "authors": "Ke, Kelly, Xiu",
+      "year": 2019,
+      "what": "returns with text data"
+    },
+    {
+      "authors": "Lopez-Lira, Tang",
+      "year": 2023,
+      "what": "ChatGPT and stock returns"
+    },
+    {
+      "authors": "DellaVigna, Pollet",
+      "year": 2009,
+      "what": "Friday announcements"
+    },
+    {
+      "authors": "Hirshleifer, Lim, Teoh",
+      "year": 2009,
+      "what": "driven to distraction"
+    },
+    {
+      "authors": "Engelberg, McLean, Pontiff",
+      "year": 2018,
+      "what": "anomalies and news"
+    },
+    {
+      "authors": "McLean, Pontiff",
+      "year": 2016,
+      "what": "does research destroy predictability"
+    },
+    {
+      "authors": "Hou, Xue, Zhang",
+      "year": 2020,
+      "what": "replicating anomalies"
+    },
+    {
+      "authors": "Novy-Marx, Velikov",
+      "year": 2016,
+      "what": "anomaly trading costs"
+    },
+    {
+      "authors": "Martineau",
+      "year": 2022,
+      "what": "rest in peace earnings drift"
+    },
+    {
+      "authors": "Moreira, Muir",
+      "year": 2017,
+      "what": "volatility managed portfolios"
+    },
+    {
+      "authors": "Harvey, Liu, Zhu",
+      "year": 2016,
+      "what": "too many false factors"
+    },
+    {
+      "authors": "Barras, Scaillet, Wermers",
+      "year": 2010,
+      "what": "false discoveries"
+    },
+    {
+      "authors": "Bailey, Lopez de Prado",
+      "year": 2014,
+      "what": "deflated Sharpe ratio"
+    },
+    {
+      "authors": "Seru, Shumway, Stoffman",
+      "year": 2010,
+      "what": "learning by trading"
+    }
+  ]
+}
