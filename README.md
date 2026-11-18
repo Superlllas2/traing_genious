@@ -8,6 +8,7 @@ Everything is kept in this repository as plain markdown, so anyone with access t
 
 * [Product concept](docs/product_concept.md): what the software is and how it works
 * [Playbook v1](docs/playbook_v1.md): the signals, guardrails and evidence from the research library
+* [Data sources](docs/data_sources.md): where filings, news and prices come from for the four markets
 * [Decisions](docs/decisions.md): what is decided and what is still open
 
 ## What lives where

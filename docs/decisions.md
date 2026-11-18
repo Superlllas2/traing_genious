@@ -17,6 +17,6 @@ Last updated: 12 November 2026
 
 ## Open
 
-* News sources and price data source for the four markets.
+* Data sources: proposed in [data_sources.md](data_sources.md). Waiting for the open checks run from the Spark, and Ilia's OK on the EODHD subscription.
 * Which model runs the light layer, and its measured error rate on a labelled test set.
 * Research round 3 themes and order (Europe evidence first).
