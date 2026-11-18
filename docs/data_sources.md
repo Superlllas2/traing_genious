@@ -2,7 +2,7 @@
 
 As of 18 November 2026. Markets: Netherlands, Germany, France, United Kingdom.
 
-Director dealings and company announcements can be read for free from official or near official sources in all four markets. The one exception is fast UK news: the London Stock Exchange's news service (RNS) is licensed. Version zero costs about $20 a month, for price data only.
+Director dealings and company announcements can be read for free from official or near official sources in all four markets. The one exception is fast UK news: the London Stock Exchange's news service (RNS) is licensed. Version zero costs nothing: prices come from free sources while we test.
 
 ## Pick per item
 
@@ -17,11 +17,11 @@ Director dealings and company announcements can be read for free from official o
 | Announcements, DE | EQS news | Free to read | The main channel for German ad hoc and corporate news | Same |
 | Announcements, UK | Ticker API (RNS) | Free tier | See UK director dealings | Same |
 | General news | GDELT DOC 2.0 API | Free, no key | Updated every 15 minutes, 65 languages, news volume over time | Marketaux or EODHD news, if GDELT misses too much |
-| Daily prices | EODHD, EOD Historical Data All World | $19.99 a month | 60+ exchanges, 30+ years, delisted stocks, splits, dividends, bulk download | Same |
+| Daily prices | Stooq, free downloads | Free | Daily prices with bulk ZIP files; a daily request limit applies | EODHD EOD Historical Data, $19.99 a month: 60+ exchanges, delisted stocks, splits, dividends |
 | Company size | Index membership (AEX, AMX, AScX, DAX, MDAX, SDAX, CAC 40, SBF 120, FTSE 100, FTSE 250) | Free | Good enough for large, mid and small labels | Market value from EODHD Fundamentals, $59.99 a month |
 | Instrument reference (ISIN, exchange, LEI) | ESMA FIRDS files, FCA FIRDS for the UK | Free | Official, full weekly files and daily changes | Same |
 
-Stooq is a free fallback for daily prices while testing. It has a daily request limit and bulk ZIP downloads, but fewer European exchanges.
+Stooq may not cover every exchange or keep delisted stocks. Both matter for honest backtests, so they are on the open checks list. If Stooq falls short, EODHD is the paid fix.
 
 ## Notes per market
 
@@ -59,12 +59,14 @@ ESMA's European Single Access Point opens to the public by July 2027. Market abu
 - [ ] Ticker API: confirm the free tier terms fit a personal app
 - [ ] FinancialReports: ask for a trial key and the price for four markets
 - [ ] GDELT: how many items a day mention companies from the four markets
+- [ ] Stooq: which of Euronext Amsterdam, Euronext Paris, Xetra and London it covers, and whether delisted stocks stay in
 
 ## Monthly cost
 
 | Phase | Items | Cost |
 | --- | --- | --- |
-| Version zero | EODHD EOD Historical Data | $19.99 |
+| Version zero | Free sources only | $0 |
+| If free prices fall short | EODHD EOD Historical Data | $19.99 |
 | With market values | EODHD Fundamentals instead | $59.99 |
 | Possible upgrades | FinancialReports API, Ticker paid plan, a paid news feed | On request or plan based |
 

@@ -15,8 +15,10 @@ Last updated: 12 November 2026
 
 * **One repository.** Everything needed for development lives in this repository, including the research text files under `research/`. The research database and the PDFs stay on the Spark.
 
+* **No paid data in version zero.** Prices come from free sources (Stooq first). EODHD only if the free data falls short.
+
 ## Open
 
-* Data sources: proposed in [data_sources.md](data_sources.md). Waiting for the open checks run from the Spark, and Ilia's OK on the EODHD subscription.
+* Data sources: proposed in [data_sources.md](data_sources.md). Waiting for the open checks run from the Spark.
 * Which model runs the light layer, and its measured error rate on a labelled test set.
 * Research round 3 themes and order (Europe evidence first).
