@@ -17,7 +17,7 @@ Page contents were not kept. This file holds only the findings. The open checks 
 | 4 | Euronext press releases (NL, FR) | Partly | The list is not in the page HTML, and a second page met a bot challenge. The terms forbid systematic retrieval without written permission. |
 | 5 | Ticker API (UK, RNS) | Works (terms only, no key used) | Free tier: 15-minute delay, 7 days of history, 1 request a second, 350 requests a week. Allowed only if the app is used by you alone. |
 | 6 | FinancialReports / FinancialFilings | Needs a key | 500 free credits a month and a "Director's Dealing" filing type. Coverage per country for director dealings is not stated without a key. |
-| 7 | GDELT DOC API (news) | Partly | 2 of 4 queries ran (NL: 0 articles, UK: 11 copies of one story). DE still gets 429 on a single request after 17 hours of no requests. FR was not run. |
+| 7 | GDELT DOC API (news) | Blocked | Only 2 of 4 queries ever ran (NL: 0 articles, UK: 11 copies of one story). Single requests now get 429, from the Spark and from a browser on the Mac. |
 | 8 | Stooq (daily prices) | Blocked | The CSV download answered with a JavaScript browser check, not data. Symbols, bulk files and delisted history were not tested. |
 
 ## 1. AFM register of managers' transactions
@@ -128,7 +128,8 @@ Page contents were not kept. This file holds only the findings. The open checks 
 * **Germany (GM) and France (FR), first run:** HTTP 429: "Please limit requests to one every 5 seconds". Those requests were 3.5 seconds apart, below GDELT's stated 5 seconds.
 * **Rerun, 18 November 2026 15:43 UTC:** the Germany query was the first GDELT request in over an hour, and it still got the same 429. The rerun stopped there, so France was not sent. Spacing alone doesn't explain the 429. GDELT may be limiting this IP address, or limiting all traffic when it is busy.
 * **Retest, 19 November 2026 08:36 UTC:** one Germany query, about 17 hours after the last request, got the same 429. Nothing else on the Spark calls GDELT. The limit comes from GDELT's side and lasts at least a day.
-* **Takeaway:** keyword queries by country return very little, and the free API is unreliable from here. Before relying on it, try it from a browser on the Spark, test at another time of day, and look at GDELT's bulk files (its 429 message points high-traffic users to its ngrams dataset) instead of the DOC API. Local-language words per market and `mode=timelinevolraw` (volume counts) are still worth testing.
+* **Browser test from the Mac, 19 November 2026:** the same Germany query, opened once in a normal browser, got the same 429 text. A plain browser is refused too, so the cause is not this check's client or User-Agent. Unconfirmed: whether the Mac was on the same home connection as the Spark. If it was, both share one public IP address, and a block on that address is still possible.
+* **Takeaway:** don't build version zero on the GDELT DOC API. It refuses even single requests, and the keyword queries that did run returned very little. If GDELT is still wanted, the way in is its bulk files (the 429 message points to the web ngrams dataset), fetched on a schedule. Otherwise use a news API with a key (Marketaux or EODHD news, the "Later" options in data_sources.md).
 
 ## 8. Stooq
 
