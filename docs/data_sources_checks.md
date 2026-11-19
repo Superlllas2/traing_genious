@@ -17,7 +17,7 @@ Page contents were not kept. This file holds only the findings. The open checks 
 | 4 | Euronext press releases (NL, FR) | Partly | The list is not in the page HTML, and a second page met a bot challenge. The terms forbid systematic retrieval without written permission. |
 | 5 | Ticker API (UK, RNS) | Works (terms only, no key used) | Free tier: 15-minute delay, 7 days of history, 1 request a second, 350 requests a week. Allowed only if the app is used by you alone. |
 | 6 | FinancialReports / FinancialFilings | Needs a key | 500 free credits a month and a "Director's Dealing" filing type. Coverage per country for director dealings is not stated without a key. |
-| 7 | GDELT DOC API (news) | Partly | 2 of 4 queries ran (NL: 0 articles, UK: 11 copies of one story). DE got 429 again in a rerun over an hour later, on its first request, so the limit is not only about spacing. FR was not run. |
+| 7 | GDELT DOC API (news) | Partly | 2 of 4 queries ran (NL: 0 articles, UK: 11 copies of one story). DE still gets 429 on a single request after 17 hours of no requests. FR was not run. |
 | 8 | Stooq (daily prices) | Blocked | The CSV download answered with a JavaScript browser check, not data. Symbols, bulk files and delisted history were not tested. |
 
 ## 1. AFM register of managers' transactions
@@ -127,6 +127,7 @@ Page contents were not kept. This file holds only the findings. The open checks 
 * **United Kingdom (UK):** 11 articles, all the same syndicated story on 11 local news sites ("Nvidia chairman says board does not intend to reinstate Jensen Huang", 18 November 2026 01:15 UTC). There was only one distinct title, so I can't give 3 samples.
 * **Germany (GM) and France (FR), first run:** HTTP 429: "Please limit requests to one every 5 seconds". Those requests were 3.5 seconds apart, below GDELT's stated 5 seconds.
 * **Rerun, 18 November 2026 15:43 UTC:** the Germany query was the first GDELT request in over an hour, and it still got the same 429. The rerun stopped there, so France was not sent. Spacing alone doesn't explain the 429. GDELT may be limiting this IP address, or limiting all traffic when it is busy.
+* **Retest, 19 November 2026 08:36 UTC:** one Germany query, about 17 hours after the last request, got the same 429. Nothing else on the Spark calls GDELT. The limit comes from GDELT's side and lasts at least a day.
 * **Takeaway:** keyword queries by country return very little, and the free API is unreliable from here. Before relying on it, try it from a browser on the Spark, test at another time of day, and look at GDELT's bulk files (its 429 message points high-traffic users to its ngrams dataset) instead of the DOC API. Local-language words per market and `mode=timelinevolraw` (volume counts) are still worth testing.
 
 ## 8. Stooq
